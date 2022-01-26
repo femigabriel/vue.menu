@@ -3,15 +3,7 @@
     <Header />
   <Submenu />
   <Search />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+ 
   <div class="card">
   <Card
     username=" Liman Restaurant"
@@ -79,6 +71,7 @@
     image="http://main.mylistingtheme.com/wp-content/uploads/sites/6/2019/11/whereslugo-410902-unsplash.jpg"
   />
   </div>
+  <Footer />
    </div>
 </template>
 
@@ -87,6 +80,7 @@ import Header from "./components/Header"
 import Submenu from "./components/Submenu";
 import Search from "./components/Search";
 import Card from "./components/Card";
+import Footer from "./components/Footer"
 
 export default {
   name: "App",
@@ -95,6 +89,7 @@ export default {
     Submenu,
     Search,
     Card,
+    Footer
   },
 };
 </script>
@@ -110,11 +105,15 @@ export default {
   box-sizing: border-box;
 }
 body{
-  background: ;
-
+   
+  font-family: 'Glacial Indifference Regular';
+}
+#app {
+   background: #f4f4f4;
 }
 .card{
-display: inline;
+display: ;
+
 }
 
 
@@ -125,8 +124,9 @@ display: inline;
   display: grid;
    grid-template-columns: repeat(3, 1fr);
   gap: 35px 1px;
-  margin-left: 35px;
-   transition: all 0.3s ease;
+ transition: all 0.3s ease;
+ margin: 120px 0px;
+ padding-left: 40px;
  }
 }
 </style>

@@ -45,7 +45,7 @@ a {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+font-family: 'Glacial Indifference Regular';
   font-size: 1rem;
 }
 .header {
@@ -65,7 +65,7 @@ body {
 
 }
 h4 {
-  color: khaki;
+  color: #fff;
   font-size: 6px;
  }
 .nav-link {
@@ -134,7 +134,7 @@ h4 {
  
   font-weight: 700;
   
-  color: khaki;
+  color: #fff;
   font-size: 15px;
 
 }

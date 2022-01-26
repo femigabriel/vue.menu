@@ -37,8 +37,11 @@ export default {
 <style scoped>
  
 section {
+  font-family: 'Glacial Indifference Regular';
 
 }
+
+
 
 .background img {
   width: 90%;
@@ -47,11 +50,12 @@ section {
 }
 .background-label{
     font-size: 8px;
-    background: goldenrod;
+    background: #fff;
   margin: 5px;
    width: 90%;
   height: 40%;
   border-radius: 5px;
+
   }
 
 
@@ -68,7 +72,7 @@ h4 {
 }
 
 h6 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 100;
   color: #242429;
   margin: 5px;
@@ -90,14 +94,18 @@ li {
   font-weight: 500;
   color: #242429;
   margin: 5px;
+  font-size: 13px;
 }
 
 @media screen and (min-width: 400px) {
-  .background-label {
-  background: goldenrod;
+ 
+ 
+ .background-label {
+  background: #fff;
   width: 90%;
   height: 40%;
-  border-radius: 10px;
+  border-radius: ;
+  margin: -2px;
 }
 h4 {
   font-weight: 100;

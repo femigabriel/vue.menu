@@ -21,7 +21,7 @@ export default {
 }
 .searchTerm {
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #999;
   padding: 25px 20px;
   margin-top: 100px;
 
@@ -36,19 +36,26 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-bottom: 40px;
+    font-family: 'Glacial Indifference Regular';
 }
  @media (max-width: 40rem) {
   .search {
      width: 70%;
     position: relative;
   display: flex;
+ 
+ 
+
   }
  .wrap{
   width: 95%;
   position: absolute;
   left: 60%;
   transform: translate(-50%, -50%);
-  margin-bottom: 40px;
+
+  font-family: 'Glacial Indifference Regular';
+
+
 }
   }
 </style>
