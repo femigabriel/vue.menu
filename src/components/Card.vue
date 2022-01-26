@@ -62,7 +62,7 @@ section {
 .background-label h4 {
   font-weight: 700;
   font-size: 14px;
-  color: #242429;
+  color: #000;
 }
 h4 {
    font-size: 14px;

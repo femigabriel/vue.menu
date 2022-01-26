@@ -3,11 +3,11 @@
         
 <nav class="container">
   <h4>What are you looking for?</h4>
-    <a href="#home">Home</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#contact">job</a>
+    <a href="#home">Place</a>
+    <a href="#portfolio">Events</a>
+    <a href="#about">Real Estate</a>
+    <a href="#contact">Jobs</a>
+    <a href="#contact">Car</a>
   </nav>
  </div>
 </template>
@@ -55,18 +55,18 @@ text-align: center;
   z-index: 999;
   background: #fff;
 box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
-  padding-top: ;
+  
 }
 
 nav a {
   display: inline-block;
   text-decoration: none;
-  margin-right: 45px;
+  margin-right: 50px;
+  padding: 0px 20px;
   color: #000;
-  font-size: 1em;
- font-weight:900;
-    font-style: normal;
-    font-display: swap;
+  font-size: 1.2em;
+ font-weight:  bolder;
+    
   padding: 0px 20px;
   
 }

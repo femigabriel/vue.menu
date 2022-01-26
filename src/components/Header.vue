@@ -50,9 +50,7 @@ font-family: 'Glacial Indifference Regular';
 }
 .header {
   display: flex;
-  align-items: center;
-  
-  background-color: #242429;
+  background: #242429;
   padding: .5rem 1rem;
   height: 60px;
 }
@@ -67,6 +65,7 @@ font-family: 'Glacial Indifference Regular';
 h4 {
   color: #fff;
   font-size: 6px;
+  
  }
 .nav-link {
 
@@ -78,8 +77,8 @@ font-weight: 700;
 .nav-link:hover {
   transition: all 0.25s;
   cursor: pointer;
-   color: pink;
-   border-bottom: 4px solid brown;
+   color: #f4f4f4;
+   border-bottom: 4px solid blueviolet;
 }
 
 button {
@@ -106,19 +105,24 @@ button {
 }
 .nav-items {
   display: flex;
+ 
 }
 .nav-item {
-  margin: 0 4rem;
+  margin: 0 2rem;
+
+}
+.navbar {
+  left: 1em;
 }
 .sign-in h4 {
   color: #999;
   font-size: 14px;
 }
 .nav-link {
-  font-size: 1.1rem;
+  font-size: 1em;
 font-weight: 900;
   position: relative;
-  color: plum;
+  color: #f4f4f4;
   cursor: pointer;
   transform-origin: bottom right;
   transition: all 0.25s;
@@ -126,24 +130,26 @@ font-weight: 900;
 .nav-link:hover {
   transition: all 0.25s;
   cursor: pointer;
-   color: pink;
-   border-bottom: 4px solid brown;
+   color: #f4f4f4;
+   border-bottom: 4px solid blueviolet;
 }
 
 h4 {
  
-  font-weight: 700;
+  font-weight: 400;
   
   color: #fff;
   font-size: 15px;
 
 }
 button {
-  background: pink;
+  background: #f4f4f4;
   color: blue;
-  padding: 20px 30px;
+  padding: 15px 30px;
   border-radius: 10px;
   font-size: 12px;
+  font-weight: bolder;
+  font-family: 'Glacial Indifference Regular';
 }
 }
 </style>
